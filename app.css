@@ -33,7 +33,7 @@ body {
 	flex: 1 0 auto
 }
 
-.appcontent-container {
+.content-container {
 	position: relative;
 	width: 100%;
 	background-color: #32b0ad;
@@ -48,7 +48,7 @@ body {
 	flex: 0 0 auto
 }
 
-.appcontent-container:before {
+.content-container:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -63,7 +63,7 @@ body {
 		height: 76px
 	}
 }
-.appcontent {
+.content {
 	position: relative;
 	padding: 24px;
 	width: 600px;
@@ -78,7 +78,7 @@ body {
 	line-height: 32px
 }
 
-.appcontent a {
+.content a {
 	display: inline-block;
 	position: relative;
 	font-weight: 700;
@@ -92,13 +92,13 @@ body {
 	text-shadow: 0 0 0 transparent
 }
 
-.appcontent a:hover {
+.content a:hover {
 	-webkit-transform: translateY(-2px);
 	transform: translateY(-2px);
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 4px 4px rgba(0, 0, 0, .1)
 }
 
-.appcontent p:first-of-type {
+.content p:first-of-type {
 	margin-top: 32px
 }
 
@@ -108,7 +108,7 @@ body {
 	}
 }
 
-.appcontent p:last-of-type {
+.content p:last-of-type {
 	margin-bottom: 40px
 }
 
@@ -118,13 +118,13 @@ body {
 	}
 }
 
-.appcontent p {
+.content p {
 	text-align: center;
 	margin: 16px 0
 }
 
 @media only screen and (max-width:360px) {
-	.appcontent p {
+	.content p {
 		margin: 8px
 	}
 }
