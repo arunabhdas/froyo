@@ -33,7 +33,7 @@ body {
 	flex: 1 0 auto
 }
 
-.content-container {
+.appcontent-container {
 	position: relative;
 	width: 100%;
 	background-color: #32b0ad;
@@ -48,7 +48,7 @@ body {
 	flex: 0 0 auto
 }
 
-.content-container:before {
+.appcontent-container:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -63,11 +63,11 @@ body {
 		height: 76px
 	}
 }
-.content {
+.appcontent {
 	position: relative;
 	padding: 24px;
 	width: 600px;
-	color: rgba(255, 255, 255, .75);
+	color: #32b0ad;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -78,7 +78,7 @@ body {
 	line-height: 32px
 }
 
-.content a {
+.appcontent a {
 	display: inline-block;
 	position: relative;
 	font-weight: 700;
@@ -92,13 +92,13 @@ body {
 	text-shadow: 0 0 0 transparent
 }
 
-.content a:hover {
+.appcontent a:hover {
 	-webkit-transform: translateY(-2px);
 	transform: translateY(-2px);
 	text-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 4px 4px rgba(0, 0, 0, .1)
 }
 
-.content p:first-of-type {
+.appcontent p:first-of-type {
 	margin-top: 32px
 }
 
@@ -108,7 +108,7 @@ body {
 	}
 }
 
-.content p:last-of-type {
+.appcontent p:last-of-type {
 	margin-bottom: 40px
 }
 
@@ -118,13 +118,13 @@ body {
 	}
 }
 
-.content p {
+.appcontent p {
 	text-align: center;
 	margin: 16px 0
 }
 
 @media only screen and (max-width:360px) {
-	.content p {
+	.appcontent p {
 		margin: 8px
 	}
 }
