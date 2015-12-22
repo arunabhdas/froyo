@@ -18,5 +18,5 @@
     <a class="item">Profile</a>
     <a class="item">About</a>
     <a class="item">Contact</a>
-    <a href="login.php">Login</a>
+    <a class="item" href="login.php">Login</a>
   </div>
