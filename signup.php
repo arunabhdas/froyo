@@ -28,7 +28,7 @@
           <label>Password</label>
           <input placeholder="Password" name="password" type="text" autocomplete="off">
       </div>
-      <button class="ui blue submit button">Submit</button>
+      <button class="ui blue submit button">Register</button>
     </div>
     <!-- end of form -->
     <!-- start of modal -->
