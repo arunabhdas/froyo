@@ -12,7 +12,7 @@
 
 </head>
 <body>
-  <h1> Welcome to Froyo</h1>
+  <img src="images/logo.png" class="image">
   <div class="ui red menu">
     <h3 class="header item">Home</h3>
     <a class="active item">Profile</a>
