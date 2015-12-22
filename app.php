@@ -1,7 +1,7 @@
 <?php include_once('header.php'); ?>
   <div class="ui four column grid">
     <div class="column">
-    Login <a href="login.php">here</a>
+    
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
