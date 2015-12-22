@@ -12,10 +12,10 @@
 
 </head>
 <body>
-  <img src="images/logo.png" class="image">
+  <a href="index.php"><img src="images/logo.png" class="image"></a>
   <div class="ui red menu">
     <h3 class="header item">Home</h3>
-    <a class="tem">Profile</a>
+    <a class="item">Profile</a>
     <a class="item">About</a>
     <a class="item">Contact</a>
     <a class="item">Products</a>
