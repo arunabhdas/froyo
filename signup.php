@@ -9,7 +9,7 @@
       </div>
     </h2>
     <!-- start of form -->
-    <form class="ui form segment">
+    <div class="ui form segment">
       <div class="two fields">
         <div class="field">
           <label>First Name</label>
@@ -28,8 +28,8 @@
           <label>Password</label>
           <input placeholder="Password" name="password" type="text" autocomplete="off">
       </div>
-      <button class="ui blue submit button">Sign Up</button>
-    </form>
+      <button class="ui blue submit button">Submit</button>
+    </div>
     <!-- end of form -->
     <!-- start of modal -->
     <div class="ui modal">
