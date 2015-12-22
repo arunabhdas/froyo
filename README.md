@@ -10,6 +10,11 @@ Requirements
 Meta 
 ----
 
+* heroku create froyo
+
+* heroku git:remote -a froyo
+
+
 
 Usage
 ------
